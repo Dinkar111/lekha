@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+.block .info .title a:hover{
+color:blue !important;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dropdown__menu {
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  font-family: 'Noto Sans', sans-serif;
+}
+.dropdown:hover .dropdown__menu {
+  display: block;
+}
+.dropdown__menu {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  font-size: 11px;
+  left: -87px;
+  top: 33px;
+  z-index: 1;
+  line-height: 29px;
+  width: 234px;
+  text-align: center;
+  padding: 0px 0;
+}
+.dropdown__menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dropdown__menu ul li {
+  text-align: start;
+  padding: 5px 0 5px 18px;
+  color: rgba(0, 0, 0, 0.6);
+
+}
+.dropdown__menu ul li a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+
+}
+.dropdown__menu ul li:first-child {
+  display: flex;
+  padding: 10px 10px;
+  border-bottom: 1px solid #efe6e6;
+}
+.dropdown__menu ul li:first-child div {
+  position: relative;
+  line-height: 9px;
+  text-align: start;
+  flex: 1;
+}
+.dropdown__menu ul li:first-child div p:first-child {
+  font-weight: 700;
+  color: #000;
+  font-size: 13px;
+}
+.dropdown__menu ul li:first-child div img {
+  position: absolute;
+  left: -0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.my-stories{
+  padding: 5rem 9rem;
+
+}
+.my-stories .head{
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.my-stories .button-new-story{
+  border-radius: 4px;
+    color: #48a97c;
+    background: none;
+    border: 1px solid;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 12px;
+}
+.my-stories h2{
+  font-weight: 600;
+  margin: 0;
+  font-size: 40px;
+
+}
+
+.my-stories .block{
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+.my-stories .block p,a{
+  text-decoration: none;
+ 
+}
+
+.my-stories .block a.title{
+  cursor: pointer;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.84);
+  
+}
